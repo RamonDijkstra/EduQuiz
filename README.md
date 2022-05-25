@@ -15,17 +15,17 @@ Experiment 2: End-to-End Quiz Generation (EEQG)
 
 # What is in the folders?
 
+    - RACE: Original data from RACE (https://www.cs.cmu.edu/~glai1/data/race/)
     - generated_data_gpt3: Contains the ground-truth data, generations, and automatic evaluation scores from GPT-3
     - generated_data_macaw: Contains the ground-truth data, generations, and automatic evaluation scores from Macaw-11b
     - gpt3_completion_scripts: Scripts to perform completion on the test data with GPT-3
     - gpt3_costs: Costs to run the experiments with GPT-3
     - gpt3_evaluation_scripts: Scripts to evaluate the experiments on the test data with GPT-3
-    - gpt3_finetune_instructions.txt: Instructions to fine-tune GPT-3
     - human_evaluation: All test instances where we performed human evaluation
     - key-race: Original data from EQG-RACE (https://github.com/jemmryx/EQG-RACE)
     - macaw_evaluation_scripts: Scripts to evaluate the experiments on the test data with Macaw-11b
     - processed_data: Combined EQG-RACE with original RACE data
-    - RACE: Original data from RACE (https://www.cs.cmu.edu/~glai1/data/race/)
+    - gpt3_finetune_instructions.txt: Instructions to fine-tune GPT-3
     - macaw_completion.py: Script to perform completion on the test data with Macaw-11b
     - preprocess_data.py: Script to combine EQG-RACE with original RACE data
 
