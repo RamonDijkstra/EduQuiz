@@ -1,0 +1,10 @@
+Finetune instructions GPT-3
+
+Full guide: https://beta.openai.com/docs/guides/fine-tuning
+
+Steps to take:
+- open terminal
+- pip install --upgrade openai
+- export OPENAI_API_KEY="<YOUR_API_key>"
+- openai tools fine_tunes.prepare_data -f <LOCAL_TRAINING_FILE>
+- openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -v <VALIDATION_FILE_ID_OR_PATH> -m curie
